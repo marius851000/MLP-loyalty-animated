@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="common.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.1672584"
+     inkscape:cx="65.098486"
+     inkscape:cy="192.71045"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer6"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="768"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="0"
+     style="display:inline">
+    <image
+       sodipodi:absref="/home/marius/mlpwalper/frame/frame_1.svg"
+       xlink:href="frame/frame_1.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="132.16595"
+       height="74.343346"
+       id="image978"
+       x="-16.593889"
+       y="11.03142"
+       style="display:none;opacity:1" />
+    <image
+       sodipodi:absref="/home/marius/mlpwalper/frame/frame_0.svg"
+       xlink:href="frame/frame_0.svg"
+       y="11.564239"
+       x="-16.055428"
+       id="image932"
+       height="73.633873"
+       width="130.90466"
+       inkscape:svg-dpi="96"
+       preserveAspectRatio="none" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="1"
+     style="display:inline">
+    <image
+       sodipodi:absref="/home/marius/mlpwalper/frame/frame_1.svg"
+       xlink:href="frame/frame_1.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="140.98305"
+       height="79.302971"
+       id="image4868"
+       x="-18.414127"
+       y="7.7437205" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="2"
+     style="display:inline">
+    <image
+       sodipodi:absref="/home/marius/mlpwalper/frame/frame_2.svg"
+       xlink:href="frame/frame_2.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="139.64622"
+       height="78.551003"
+       id="image1250"
+       x="-18.05184"
+       y="9.0811081"
+       style="display:inline;opacity:1" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="3"
+     style="display:inline">
+    <image
+       sodipodi:absref="/home/marius/mlpwalper/frame/frame_3.svg"
+       xlink:href="frame/frame_3.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="145.64093"
+       height="81.923027"
+       id="image1512"
+       x="-23.857393"
+       y="7.2992487"
+       style="display:inline" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="4"
+     style="display:inline">
+    <image
+       sodipodi:absref="/home/marius/mlpwalper/frame/frame_4.svg"
+       xlink:href="frame/frame_4.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="160.96127"
+       height="90.540726"
+       id="image2116"
+       x="-31.120277"
+       y="2.225477" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="5"
+     style="display:inline;opacity:1">
+    <image
+       sodipodi:absref="/home/marius/mlpwalper/frame/frame_5.svg"
+       xlink:href="frame/frame_5.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="160.49556"
+       height="90.278755"
+       id="image2402"
+       x="-32.340645"
+       y="4.4571686" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="6"
+     style="display:inline;opacity:1">
+    <image
+       sodipodi:absref="/home/marius/mlpwalper/frame/frame_6.svg"
+       xlink:href="frame/frame_6.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="165.92508"
+       height="93.332863"
+       id="image2704"
+       x="-36.527016"
+       y="3.5016389" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="7"
+     style="display:inline;opacity:1">
+    <image
+       sodipodi:absref="/home/marius/mlpwalper/frame/frame_7.svg"
+       xlink:href="frame/frame_7.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="96"
+       width="172.81973"
+       height="97.211105"
+       id="image2984"
+       x="-39.860191"
+       y="0.76092076" />
+  </g>
+</svg>
