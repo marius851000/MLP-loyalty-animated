@@ -1,4 +1,4 @@
-{ pkgs ? import <nixpkgs> {}}:
+{ pkgs ? import <nixpkgs> {}, frame_rate ? 24, x ? 1366, y ? 768}:
 
 with builtins;
 
@@ -93,4 +93,4 @@ let
 		'';
 	};
 in
-	makeAnimatedBackground 24 1366 768
+	makeAnimatedBackground frame_rate x y
