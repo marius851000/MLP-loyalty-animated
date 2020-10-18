@@ -25,7 +25,7 @@ def apply_radient(img, center, center_color, extern_color, radius):
             img.putpixel((x, y), (int(r), int(g), int(b)))
 
 class MLPWallpaperAnim:
-    def __init__(self, images, resolution= (1000, 1000), fps = 120, fall_per_element = 60, second_per_element=1, scale=1, out_dir="tmp"):
+    def __init__(self, images, resolution= (1000, 1000), fps = 120, fall_per_element = 100, second_per_element=1, scale=1, out_dir="tmp"):
         self.fps = fps
         self.spf = 1/fps
         self.fall_per_element = fall_per_element * scale
