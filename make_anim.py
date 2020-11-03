@@ -44,10 +44,10 @@ class MLPWallpaperAnim:
             for x in range(img.size[0]):
                 for y in range(img.size[1]):
                     actual_pixel = img.getpixel((x, y))
-                    if actual_pixel[3] < 30:
+                    if actual_pixel[3] < 20:
                         img.putpixel((x, y), (0, 0, 0, 0))
-            image_center = img.width/2
-            self.images.append([ImageOps.scale(img, scale), int(image_center-page_center)])
+            image_center = img.width/2*scale
+            self.images.append([ImageOps.scale(img, scale), int(page_center-image_center)])
 
         self.base_image = Image.new('RGBA', self.resolution, color="black")
         apply_radient(self.base_image, (self.resolution[0]/2, self.resolution[1]*1.5), (47, 0, 15), (0, 10, 39), self.resolution[0]*1.5)
@@ -63,7 +63,7 @@ class MLPWallpaperAnim:
             element_passed = image_id + second_since_last_element/self.second_per_element
 
             image = self.get_image(image_count-image_id)
-            y_change = int(self.fall_per_element * element_passed)
+            y_change = int(self.fall_per_element * floor(element_passed)) + int(self.fall_per_element * (element_passed%1))
 
             color = (int(216+8*element_passed), int(23+36*element_passed), int(86+27*element_passed))
             coloured_image = Image.new('RGB', image[0].size, color = color)
@@ -90,7 +90,7 @@ image_base.sort()
 for image in image_base:
     images.append(os.path.join(source_folder, image))
 
-a = MLPWallpaperAnim(images, scale=0.42, fps=frame_rate, resolution=resolution, out_dir=out_folder)
+a = MLPWallpaperAnim(images, scale=resolution[1]/768*0.42, fps=frame_rate, resolution=resolution, out_dir=out_folder)
 
 for loop in range(int(frame_rate*8)):
     a.render_frame(loop)
